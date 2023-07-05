@@ -1,0 +1,158 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #295939;
+  margin: 0px;
+}
+.header--AppName {
+  display: flex;
+  justify-content: center;
+  color: #ffeebb;
+}
+main {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+p {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: large;
+}
+footer {
+  display: flex;
+  position: fixed;
+  bottom: 0px;
+  background-color: rgb(243, 232, 10);
+  width: 100vw;
+}
+
+.main--QuesCard1 {
+  position: relative;
+  background-color: #e9b0df;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  border: solid 1px black;
+  border-radius: 20px;
+  margin: 40px;
+  padding: 40px;
+}
+.main--QuesCard2 {
+  position: relative;
+  background-color: #e9b0df;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  border: solid 1px black;
+  border-radius: 20px;
+  margin: 40px;
+  padding: 40px;
+}
+.main--QuesCard3 {
+  position: relative;
+  background-color: #e9b0df;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  border: solid 1px black;
+  border-radius: 20px;
+  margin: 40px;
+  padding: 40px;
+}
+.main--QuesCard4 {
+  position: relative;
+  background-color: #e9b0df;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  border: solid 1px black;
+  border-radius: 20px;
+  margin: 40px;
+  padding: 40px;
+}
+
+.main--QuesCard-Button {
+  background-color: #adeecf;
+  padding: 10px;
+  font-weight: bolder;
+  font-size: larger;
+}
+
+.main--QuesCard1--AnsTag {
+  width: 80vw;
+  display: flex;
+  list-style: none;
+  justify-content: left;
+  padding-left: 5px;
+}
+.main--QuesCard1--AnsTag li {
+  display: flex;
+  border: solid 1px black;
+  background-color: #e8efeb;
+  padding: 20px;
+  font-weight: bolder;
+  margin: 2px;
+}
+
+.main--QuesCard1--bookmark {
+  padding: 10px;
+  position: absolute;
+  top: -10px;
+  right: 20px;
+  background-color: tomato;
+}
+
+.main--QuesCard2--bookmark {
+  padding: 10px;
+  position: absolute;
+  top: -10px;
+  right: 20px;
+  background-color: tomato;
+}
+
+.main--QuesCard3--bookmark {
+  padding: 10px;
+  position: absolute;
+  top: -10px;
+  right: 20px;
+  background-color: tomato;
+}
+
+.main--QuesCard4--bookmark {
+  padding: 10px;
+  position: absolute;
+  top: -10px;
+  right: 20px;
+  background-color: tomato;
+}
+
+.main--footer--nav {
+  display: flex;
+  flex-grow: 1;
+  justify-content: space-between;
+}
+
+.main--footer--nav--ul {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  list-style: none;
+  flex-grow: 1;
+  padding: 10px;
+}
+
+/* .main--footer-list a {
+  display: flex;
+  border: solid 2px black;
+} */
+
+.main--footer-list img {
+  margin: 0px;
+  padding: 10px;
+}
