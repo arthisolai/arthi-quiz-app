@@ -1,12 +1,6 @@
-* {
-  box-sizing: border-box;
-}
+@import url(./global.css);
 
-body {
-  background-color: #295939;
-  margin: 0px;
-}
-.header--AppName {
+.header--appName {
   display: flex;
   justify-content: center;
   color: #ffeebb;
@@ -19,13 +13,6 @@ main {
 p {
   font-family: Arial, Helvetica, sans-serif;
   font-size: large;
-}
-footer {
-  display: flex;
-  position: fixed;
-  bottom: 0px;
-  background-color: rgb(243, 232, 10);
-  width: 100vw;
 }
 
 .main--QuesCard1 {
@@ -90,6 +77,7 @@ footer {
   list-style: none;
   justify-content: left;
   padding-left: 5px;
+  flex-wrap: wrap;
 }
 .main--QuesCard1--AnsTag li {
   display: flex;
@@ -101,6 +89,34 @@ footer {
 }
 
 .main--QuesCard1--bookmark {
+  width: 40px;
+  position: absolute;
+  top: -10px;
+  right: 20px;
+}
+
+.main--QuesCard2--bookmark {
+  width: 40px;
+  position: absolute;
+  top: -10px;
+  right: 20px;
+}
+
+.main--QuesCard3--bookmark {
+  width: 40px;
+  position: absolute;
+  top: -10px;
+  right: 20px;
+}
+
+.main--QuesCard4--bookmark {
+  width: 40px;
+  position: absolute;
+  top: -10px;
+  right: 20px;
+}
+
+/* .main--QuesCard1--bookmark {
   padding: 10px;
   position: absolute;
   top: -10px;
@@ -130,15 +146,15 @@ footer {
   top: -10px;
   right: 20px;
   background-color: tomato;
-}
+} */
 
-.main--footer--nav {
+/* .main--footer--nav {
   display: flex;
   flex-grow: 1;
   justify-content: space-between;
 }
 
-.main--footer--nav--ul {
+.footer--nav--ul {
   display: flex;
   justify-content: space-around;
   align-items: center;
@@ -147,12 +163,11 @@ footer {
   padding: 10px;
 }
 
-/* .main--footer-list a {
+.footer-nav--menu a {
   display: flex;
   border: solid 2px black;
-} */
-
-.main--footer-list img {
-  margin: 0px;
-  padding: 10px;
 }
+
+.footer--nav--menu img {
+  width: 40px;
+} */

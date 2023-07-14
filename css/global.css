@@ -1,0 +1,28 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #295939;
+  margin: 0px;
+}
+
+footer {
+  display: flex;
+  position: fixed;
+  bottom: 0px;
+  background-color: rgb(243, 232, 10);
+  width: 100vw;
+}
+
+.footer--nav {
+  width: 100vw;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  height: 50px;
+}
+
+.footer--nav--img {
+  width: 40px;
+}
