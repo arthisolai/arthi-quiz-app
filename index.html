@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
     <link rel="Stylesheet" href="./css/cards.css" />
+    <script src="./js/index.js" defer></script>
   </head>
   <body>
     <header>
@@ -14,18 +15,13 @@
       <section class="main--QuesCard1">
         <img
           class="main--QuesCard1--bookmark"
-          src="./image/bookmark_filled.png"
+          src="./image/bookmark_transparent.png"
           alt="bookmark image"
+          data-js="bookmark"
         ></img>
-        <!-- <button
-          class="main--QuesCard1--bookmark"
-          type="button"
-          <img
-          src="./image/bookmark_filled.png"
-          alt="bookmark image"
-        ></button> -->
         <h2>What is the capital of Germany?</h2>
-        <button class="main--QuesCard-Button" type="button">Show Answer</button>
+        <button class="main--QuesCard-Button" type="button" data-js = "answerButton">Show Answer</button>
+        <p class="answer">The answer is : BERLIN</p>
         <ul class="main--QuesCard1--AnsTag">
           <li>#Dresden</li>
           <li>#Berlin</li>
@@ -38,14 +34,8 @@
           class="main--QuesCard1--bookmark"
           src="./image/bookmark_transparent.png"
           alt="bookmark image"
+          data-js="bookmark"
         ></img>
-        <!-- <button
-          class="main--QuesCard2--bookmark"
-          type="button"
-          <img
-          src="#"
-          alt="bookmark image"
-        ></button> -->
         <h2>What is the capital of India?</h2>
         <button class="main--QuesCard-Button" type="button">Show Answer</button>
         <ul class="main--QuesCard1--AnsTag">
@@ -58,16 +48,10 @@
       <section class="main--QuesCard3">
         <img
           class="main--QuesCard1--bookmark"
-          src="./image/bookmark_filled.png"
+          src="./image/bookmark_transparent.png"
           alt="bookmark image"
+          data-js="bookmark"
         ></img>
-        <!-- <button
-          class="main--QuesCard3--bookmark"
-          type="button"
-          <img
-          src="#"
-          alt="bookmark image"
-        ></button> -->
         <h2>What is the capital of France?</h2>
         <button class="main--QuesCard-Button" type="button">Show Answer</button>
         <ul class="main--QuesCard1--AnsTag">
@@ -80,16 +64,10 @@
       <section class="main--QuesCard4">
         <img
           class="main--QuesCard1--bookmark"
-          src="./image/bookmark_filled.png"
+          src="./image/bookmark_transparent.png"
           alt="bookmark image"
+          data-js="bookmark"
         ></img>
-        <!-- <button
-          class="main--QuesCard4--bookmark"
-          type="button"
-          <img
-          src="#"
-          alt="bookmark image"
-        ></button> -->
         <h2>What is the capital of Switzerland?</h2>
         <button class="main--QuesCard-Button" type="button">Show Answer</button>
         <ul class="main--QuesCard1--AnsTag">
@@ -101,44 +79,23 @@
     </main>
     <footer class="main--footer">
       <nav class="footer--nav">
-        <!-- <ul class="main--footer--nav--ul">
-          <li class="main--footer-list"> -->
             <a class="footer--nav--menu" href="index.html"
               ><img class="footer--nav--img" src="./image/home_filled.png" alt="Home"
             /></a>
-          <!-- </li> -->
-          <!-- <li class="main--footer-list"> -->
             <a class="footer--nav--menu" href="bookmark.html"
               ><img class="footer--nav--img" src="./image/bookmark_transparent.png" alt="Bookmark"
             /></a>
-          <!-- </li> -->
-          <!-- <li class="main--footer-list"> -->
+            <a class="footer--nav--menu" href="form.html"
+          ><img
+            class="footer--nav--img"
+            src="./image/add-transparent.png"
+            alt="Bookmark"
+        /></a>
             <a class="footer--nav--menu" href="profile.html"
               ><img class="footer--nav--img" src="./image/profile.png" alt="Profile"
             /></a>
-          <!-- </li>
-        </ul> -->
       </nav>
     </footer>
   </body>
 </html>
 
-<!-- <button class="main--footer-Button" type="button">Home</button>
-     <button class="main--footer-Button" type="button">BookMark</button>
-     <button class="main--footer-Button" type="button">Profile</button> -->
-
-<!-- <section id="HiddenAnswer">
-        <p>Question 1</p>
-        <button
-          class="main--QuesCard1-Button"
-          type="button"
-          onclick="toggleAnswer()"
-        >
-          Hide Answer
-        </button>
-        <ul class="main--QuesCard1--AnsTag">
-          <li>#Option1</li>
-          <li>#Option2</li>
-          <li>#Option3</li>
-        </ul>
-      </section> -->

@@ -1,10 +1,5 @@
 @import url(./global.css);
 
-.header--appName {
-  display: flex;
-  justify-content: center;
-  color: #ffeebb;
-}
 main {
   display: flex;
   justify-content: center;
@@ -15,42 +10,9 @@ p {
   font-size: large;
 }
 
-.main--QuesCard1 {
-  position: relative;
-  background-color: #e9b0df;
-  display: flex;
-  justify-content: center;
-  flex-direction: column;
-  align-items: center;
-  border: solid 1px black;
-  border-radius: 20px;
-  margin: 40px;
-  padding: 40px;
-}
-.main--QuesCard2 {
-  position: relative;
-  background-color: #e9b0df;
-  display: flex;
-  justify-content: center;
-  flex-direction: column;
-  align-items: center;
-  border: solid 1px black;
-  border-radius: 20px;
-  margin: 40px;
-  padding: 40px;
-}
-.main--QuesCard3 {
-  position: relative;
-  background-color: #e9b0df;
-  display: flex;
-  justify-content: center;
-  flex-direction: column;
-  align-items: center;
-  border: solid 1px black;
-  border-radius: 20px;
-  margin: 40px;
-  padding: 40px;
-}
+.main--QuesCard1,
+.main--QuesCard2,
+.main--QuesCard3,
 .main--QuesCard4 {
   position: relative;
   background-color: #e9b0df;
@@ -61,7 +23,20 @@ p {
   border: solid 1px black;
   border-radius: 20px;
   margin: 40px;
-  padding: 40px;
+  padding: 15px;
+  transition: background-color 1s ease, box-shadow 0.5s ease,
+    transform 0.5s ease;
+  box-shadow: 0 0 0 rgba(0, 0, 0, 0.2);
+  transform: translateX(-20px);
+}
+
+.main--QuesCard1:hover,
+.main--QuesCard2:hover,
+.main--QuesCard3:hover,
+.main--QuesCard4:hover {
+  background-color: palevioletred;
+  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.3);
+  transform: translateX(0);
 }
 
 .main--QuesCard-Button {
@@ -69,6 +44,12 @@ p {
   padding: 10px;
   font-weight: bolder;
   font-size: larger;
+  transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+.main--QuesCard-Button:hover {
+  background-color: #69d2a6;
+  transform: scale(1.1);
 }
 
 .main--QuesCard1--AnsTag {
@@ -83,32 +64,14 @@ p {
   display: flex;
   border: solid 1px black;
   background-color: #e8efeb;
-  padding: 20px;
+  padding: 10px;
   font-weight: bolder;
   margin: 2px;
 }
 
-.main--QuesCard1--bookmark {
-  width: 40px;
-  position: absolute;
-  top: -10px;
-  right: 20px;
-}
-
-.main--QuesCard2--bookmark {
-  width: 40px;
-  position: absolute;
-  top: -10px;
-  right: 20px;
-}
-
-.main--QuesCard3--bookmark {
-  width: 40px;
-  position: absolute;
-  top: -10px;
-  right: 20px;
-}
-
+.main--QuesCard1--bookmark,
+.main--QuesCard2--bookmark,
+.main--QuesCard3--bookmark,
 .main--QuesCard4--bookmark {
   width: 40px;
   position: absolute;
@@ -116,58 +79,6 @@ p {
   right: 20px;
 }
 
-/* .main--QuesCard1--bookmark {
-  padding: 10px;
-  position: absolute;
-  top: -10px;
-  right: 20px;
-  background-color: tomato;
+.hidden {
+  display: none;
 }
-
-.main--QuesCard2--bookmark {
-  padding: 10px;
-  position: absolute;
-  top: -10px;
-  right: 20px;
-  background-color: tomato;
-}
-
-.main--QuesCard3--bookmark {
-  padding: 10px;
-  position: absolute;
-  top: -10px;
-  right: 20px;
-  background-color: tomato;
-}
-
-.main--QuesCard4--bookmark {
-  padding: 10px;
-  position: absolute;
-  top: -10px;
-  right: 20px;
-  background-color: tomato;
-} */
-
-/* .main--footer--nav {
-  display: flex;
-  flex-grow: 1;
-  justify-content: space-between;
-}
-
-.footer--nav--ul {
-  display: flex;
-  justify-content: space-around;
-  align-items: center;
-  list-style: none;
-  flex-grow: 1;
-  padding: 10px;
-}
-
-.footer-nav--menu a {
-  display: flex;
-  border: solid 2px black;
-}
-
-.footer--nav--menu img {
-  width: 40px;
-} */

@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="Stylesheet" href="./css/forms.css" />
+    <script src="./js/forms.js" defer></script>
+  </head>
+  <body>
+    <header>
+      <h1 class="header--appName">Country-Capital-Quiz</h1>
+    </header>
+    <form for="forms" data-js="form">
+      <label for="question">Your question:</label><br />
+      <textarea
+        id="question"
+        name="question"
+        rows="4"
+        cols="50"
+        maxlength="150"
+      ></textarea>
+      <span class="questionCharLeft">150 characters left</span>
+      <br />
+      <br />
+
+      <label for="answer">Your answer:</label><br />
+      <textarea
+        id="answer"
+        name="answer"
+        rows="4"
+        cols="50"
+        maxlength="150"
+        data-js="answer"
+      ></textarea>
+      <span class="answerCharLeft">150 characters left</span>
+      <br />
+      <br />
+
+      <label for="tag">Tag:</label><br />
+      <input type="text" id="tag" name="tag" /><br />
+      <br />
+      <br />
+      <button class="" type="button" data-js="submitButton">Submit</button>
+    </form>
+    <div data-js="cardContainer"></div>
+    <footer class="main--footer">
+      <nav class="footer--nav">
+        <a class="footer--nav--menu" href="index.html"
+          ><img class="footer--nav--img" src="./image/home.png" alt="Home"
+        /></a>
+        <a class="footer--nav--menu" href="bookmark.html"
+          ><img
+            class="footer--nav--img"
+            src="./image/bookmark_transparent.png"
+            alt="Bookmark"
+        /></a>
+        <a class="footer--nav--menu" href="form.html"
+          ><img
+            class="footer--nav--addImg"
+            src="./image/add-button-solid.png"
+            alt="Bookmark"
+        /></a>
+        <a class="footer--nav--menu" href="profile.html"
+          ><img
+            class="footer--nav--img"
+            src="./image/profile.png"
+            alt="Profile"
+        /></a>
+      </nav>
+    </footer>
+  </body>
+</html>
